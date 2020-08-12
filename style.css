@@ -1,0 +1,195 @@
+body,
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#login_area {
+}
+.login_center_box {
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+}
+.login_center_box h2 {
+  color: #555555;
+  font-family: "Open Sans", arial;
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 24px;
+}
+.login_center_box h3 {
+  color: #555555;
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.login_box {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-left: 1px solid #dfdfdf;
+  border-radius: 5px;
+  box-shadow: 1px 3px 2px #cdcdcd;
+  margin: 15px auto;
+  padding: 46px 0;
+  width: 56%;
+}
+.log_center {
+  width: 80%;
+  margin: 0 auto;
+}
+.log_center img {
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+.emailaddress {
+  border: 1px solid #d9d9d9;
+  color: #333;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px;
+  width: 93%;
+}
+.next_button {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: rgba(0, 0, 0, 0) linear-gradient(#4b8efc, #377cea) repeat scroll 0
+    0;
+  border-color: #3079ed -moz-use-text-color #3079ed #3079ed;
+  border-image: none;
+  border-style: solid none solid solid;
+  border-width: 1px 5px 1px 1px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 7px;
+  padding: 7px 0;
+  width: 100%;
+  border-radius: 5px;
+}
+.log_center a {
+  display: block;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 10px;
+  text-align: right;
+  color: #427fed;
+}
+.under_box {
+}
+.under_box a {
+  color: #427fed;
+  font-size: 17px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.under_box p {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.footer_area {
+}
+.footer_area:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.left_menu {
+  float: left;
+  overflow: hidden;
+}
+.left_menu ul {
+  text-align: left;
+}
+.left_menu ul li {
+  display: inline-block;
+}
+.left_menu ul li a {
+  color: #737373;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 18px;
+}
+.left_menu ul li a:hover {
+}
+.right_menu {
+  float: right;
+  overflow: hidden;
+}
+.langues {
+}
+.right_menu img {
+  position: relative;
+  top: 6px;
+}
+input[type="email"]:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9;
+  border-image: none;
+  border-right: 1px solid #b9b9b9;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+input[type="email"]:focus {
+  border: 1px solid #4d90fe;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+  outline: medium none;
+}
+.footer_center {
+  width: 95%;
+  margin: auto;
+}
+
+/* responsive css */
+
+/*This CSS for (lg) Large devices -1200- <1200px */
+
+/* This CSS for (md) Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .login_center_box {
+    width: 80%;
+  }
+}
+/* This CSS for (sm) Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .login_center_box {
+    width: 100%;
+  }
+  .emailaddress {
+    width: 94%;
+  }
+}
+/* This CSS for (xs) small Mobile*/
+@media (max-width: 767px) {
+  .login_center_box {
+    width: 100%;
+  }
+  .emailaddress {
+    width: 90%;
+  }
+}
